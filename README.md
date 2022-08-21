@@ -1,5 +1,5 @@
 # ssl-cert-scripts
-A series of scripts and methods used to update SSL Certs on self-hosted services.
+A series of scripts and methods used to update SSL Certs on <strong>self-hosted services.</strong>
 <br>
 I have a number of self-hosted services, and while reverse proxies like nginx are incredibly useful, they can cause issues.
 <br>
