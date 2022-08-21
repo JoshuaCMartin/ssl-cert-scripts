@@ -6,8 +6,8 @@
 # If using OPNSense ACME Plugin to upload, they will by default be in ~/[site-name].com/[cert-type].pem
 # After generating a pfx cert file, you must select the file as your cert in the Jellyfin Web Interface, under Dashboard > Networking > Custom SSL certificate path:
 # Selecting the cert in the web GUI only need be done once, but the service must be restarted every time the cert is updated.
-# "passout pass:" leaves the password for the exported key empty. 
-# Simply change to "-passout pass: [Your Password]" and enter it in the Jellyfin Web Interface if you'd like
+# passout pass: leaves the password for the exported key empty. 
+# Simply change to -passout pass: [Your Password] and enter it in the Jellyfin Web Interface if you'd like
 
 
 # Example:
