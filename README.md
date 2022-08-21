@@ -13,7 +13,7 @@ Some are as easy as uploading the new cert via SFTP and restarting a service.
 Others are more involved. These are the scripts and methods I use. You are welcome to use them for any and all purposes.
 <br>
 <li><strong>OpenMediaVault</strong></li>
-<li><strong>Unifi Network Application</strong> (Debian LXC)/li>
+<li><strong>Unifi Network Application</strong> (Debian LXC)</li>
 <li><strong>Jellyfin</strong> (Debian LXC)</li>
 <li><strong>AdGuard Home</strong> (Debian LXC)</li>
 <li><strong>ProxMox</strong></li>
