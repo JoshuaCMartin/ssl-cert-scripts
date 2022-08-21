@@ -14,6 +14,11 @@
 
 
 # SCRIPT BEGIN  ----------
+if [[ $(id -u) -ne 0 ]]; then
+  echo "This script must be executed as root or using sudo."
+  exit 99
+fi
+
 cert="${1}"
 key="${2}"
 jellycert="${3}"
