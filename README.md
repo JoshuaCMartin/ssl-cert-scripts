@@ -13,13 +13,13 @@ Some are as easy as uploading the new cert via SFTP and restarting a service.
 Others are more involved. These are the scripts and methods I use. You are welcome to use them for any and all purposes.
 <br>
 <li><strong>OpenMediaVault</strong></li>
-<li><strong>Unifi Network Application(Debian LXC)</strong></li>
-<li><strong>Jellyfin(Debian LXC)</strong></li>
-<li><strong>AdGuard Home(Debian LXC)</strong></li>
+<li><strong>Unifi Network Application</strong> (Debian LXC)/li>
+<li><strong>Jellyfin</strong> (Debian LXC)</li>
+<li><strong>AdGuard Home</strong> (Debian LXC)</li>
 <li><strong>ProxMox</strong></li>
-<li><strong>Portainer(Debian LXC > Docker)</strong></li>
-<li><strong>VaultWarden(Arch LXC)</strong></li>
-<li><strong>NextCloud Pi(LXC)</strong></li>
-<li><strong>NginX Proxy Manager (Coming Soon)</strong></li>
+<li><strong>Portainer</strong> (Debian LXC > Docker)</li>
+<li><strong>VaultWarden</strong> (Arch LXC)</li>
+<li><strong>NextCloud Pi</strong> (LXC)</li>
+<li><strong>NginX Proxy Manager</strong> (Coming Soon)</strong></li>
 <br><br>
 
