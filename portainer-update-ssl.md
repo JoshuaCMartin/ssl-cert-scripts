@@ -1,5 +1,5 @@
 If you already have portainer running, you must kill, remove, and redeploy it.
-<br><br>
+<br>
 <code>docker kill portainer && docker rm portainer</code>
 <br><br>
 When originally deploying portainer via docker you can specify and mount the directory the certs are located in on the host machine:
