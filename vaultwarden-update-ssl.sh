@@ -1,3 +1,4 @@
+#!/bin/bash
 # My configuration is a bit unusual, in that I am running VaultWarden on an Arch LXC on Proxmox, installed from the AUR
 # YMMV on other systems/configs
 
@@ -13,9 +14,14 @@
 # ./vaultwarden-update-ssl /path/to/fullchain.pem /path/to/key.pem
 
 # SCRIPT BEGIN  ----------
+if [[ $(id -u) -ne 0 ]]; then
+  echo "This script must be executed as root or using sudo."
+  exit 99
+fi
+
 mkdir /usr/share/webapps/vaultwarden-web/cert/
-cp ${1} /usr/share/webapps/vaultwarden-web/cert/fullchain.pem &&
-cp ${2} /usr/share/webapps/vaultwarden-web/cert/key.pem &&
+cp "${1}" /usr/share/webapps/vaultwarden-web/cert/fullchain.pem &&
+cp "${2}" /usr/share/webapps/vaultwarden-web/cert/key.pem &&
 chown -R vaultwarden:vaultwarden /usr/share/webapps/vaultwarden-web/cert/ &&
 systemctl restart vaultwarden
 # SCRIPT END  ----------
