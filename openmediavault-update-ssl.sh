@@ -7,7 +7,7 @@
 # UUID will look something like this: 415f7e68-1086-4ccd-b5cd-9e9b8e2df939
 # If there isn't one present, this may mean you need to generate a new self-signed SSL certificate within the Web Interface
 # under System > Certificates > SSL
-# You then need to select it and enable SSL, under Workbench > [Check] SSL/TLS Enabled, and select your cert.
+# Int he web interface, you then need to select it and enable SSL, under Workbench > [Check] SSL/TLS Enabled, and select your cert.
 # The certificate you chose will then be replaced by this script every time.
 # If using certs from LetsEncrypt, the cert(2) file should be fullchain.pem, the key(3) file is key.pem
 # If Using the OPNSense ACME Plugin to upload via sftp, the default location for the certs is [User-Home-Dir]/[website.com]/[cert-type].pem
