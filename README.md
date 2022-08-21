@@ -19,7 +19,6 @@ Others are more involved. These are the scripts and methods I use. You are welco
 <li><strong>ProxMox</strong></li>
 <li><strong>VaultWarden(Arch LXC)</strong></li>
 <li><strong>NextCloud Pi(LXC)</strong></li>
-<li><strong>Portainer(Debian LXC > Docker)</strong></li>
 <li><strong>NginX Proxy Manager (Coming Soon)</strong></li>
 <br><br>
 
