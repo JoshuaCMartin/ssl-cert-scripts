@@ -1,4 +1,3 @@
-  GNU nano 5.4                                                                                          update_ssl.sh                                                                                                    
 #!/bin/bash
 
 # Call this script with the paths to your cert.pem(1) and key.pem(2) files from LetsEncrypt and finally the output cert.pfx(3)
