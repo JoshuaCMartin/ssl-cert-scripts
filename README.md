@@ -10,7 +10,7 @@ There are a few services for which I found it was easier to update the cert with
 <br>
 Some are as easy as uploading the new cert via SFTP and restarting a service.
 <br>
-Others are more involved. These are the scripts I use. You are welcome to use them for any and all purposes.
+Others are more involved. These are the scripts and methods I use. You are welcome to use them for any and all purposes.
 <br>
 <li><strong>OpenMediaVault</strong></li>
 <li><strong>Unifi Network Application(Debian LXC)</strong></li>
