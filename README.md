@@ -1,5 +1,8 @@
 # ssl-cert-scripts
 A series of scripts used to update SSL Certs on self-hosted services.
+*OpenMediaVault
+*Unifi Network Application
+*Jellyfin(Debian)
 
 I have a number of self-hosted services, and while reverse proxies like nginx are incredibly useful, they can cause issues.
 
