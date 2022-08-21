@@ -2,7 +2,7 @@ If you already have portainer running, you must kill, remove, and redeploy it.
 <br>
 <code>docker kill portainer && docker rm portainer</code>
 <br><br>
-When originally deploying portainer via docker you can specify and mount the directory the certs are located in on the host machine:
+When originally deploying portainer via docker you can specify and mount the directory the certs are located in <strong>on the host machine</strong>:
 <br>
 <code>docker run -d -p 8000:8000 -p 9000:9000 -p 9443:9443 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data -v /path/to/certs:/certs -v /etc/timezone:/etc/timezone:ro -v /etc/localtime:/etc/localtime:ro portainer/portainer-ce:latest --sslcert /certs/fullchain.pem --sslkey /certs/key.pem</code>
 <br><br>
