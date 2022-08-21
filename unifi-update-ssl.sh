@@ -14,6 +14,7 @@ if [[ $(id -u) -ne 0 ]]; then
   echo "This script must be executed as root or using sudo."
   exit 99
 fi
+
 cp "${1}" /usr/lib/unifi/private.key &&
 cp "${2}" /usr/lib/unifi/certificate.pem &&
 cd /usr/lib/unifi &&
